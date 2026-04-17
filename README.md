@@ -7,7 +7,7 @@ This project demonstrates an end-to-end **data engineering pipeline** built usin
 ---
 
 ## Objectives
-git status
+
 * Build a complete ETL pipeline (Extract, Transform, Load)
 * Store structured data in a relational database
 * Create transformation layers for analytics
@@ -23,6 +23,12 @@ git status
 * Visual Studio Code
 
 ---
+
+## Architecture
+
+The project follows a simple end-to-end data pipeline:
+
+Kaggle Dataset → Python ETL → PostgreSQL → SQL Transformations → Analytics Layer
 
 ## Project Structure
 
@@ -72,6 +78,11 @@ hotel-booking-data-engineering/
 
 ---
 
+## Data Engineering Focus
+
+This project emphasizes building a structured ETL pipeline, transforming raw data into analytics-ready datasets stored in PostgreSQL.
+---
+
 ## Data Modeling (Transformation Layer)
 
 Created aggregated tables for analytics:
@@ -83,6 +94,16 @@ Created aggregated tables for analytics:
 * `country_performance`
 
 These tables serve as the **analytics layer** for reporting and dashboards.
+
+---
+
+## Screenshots
+
+### Database Output
+![Database](images/database.png)
+
+### SQL Query Results
+![SQL Results](images/sql_results.png)
 
 ---
 
@@ -111,6 +132,12 @@ These tables serve as the **analytics layer** for reporting and dashboards.
    python scripts/load.py
    ```
 4. Execute SQL queries in PostgreSQL (pgAdmin)
+
+---
+
+## Data Flow
+
+Kaggle Dataset → Python ETL → PostgreSQL → SQL Transformations → Business Insights
 
 ---
 
