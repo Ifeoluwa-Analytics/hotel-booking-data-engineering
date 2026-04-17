@@ -7,10 +7,7 @@ This project demonstrates an end-to-end **data engineering pipeline** built usin
 ---
 
 ## Objectives
-<<<<<<< HEAD
 
-=======
->>>>>>> 1aa404666fa8b83794cdb748226871dcde424437
 * Build a complete ETL pipeline (Extract, Transform, Load)
 * Store structured data in a relational database
 * Create transformation layers for analytics
